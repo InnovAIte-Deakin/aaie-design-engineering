@@ -229,7 +229,7 @@ This use case illustrates how students engage in academic work using GenAI tools
 
 ### Educator Use Case Diagram
 
-![Educator Use Case Diagram – Phase 2](../product-diagram/UseCaseDiagram_Educator(Phase2).png)
+![Educator Use Case Diagram – Phase 2](../product-diagram/UseCaseDiagram_Educator(phase2).png)
 
 ---
 
