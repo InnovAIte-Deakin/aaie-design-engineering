@@ -16,7 +16,7 @@
 
 ---
 
-![AAIE Context Diagram](../product_diagram/context_diagram.png)
+![AAIE Context Diagram](../product-diagram/Context_Diagram(v.1.1).png)
 
 ---
 
@@ -27,7 +27,7 @@ It ensures all development teams (Product Engineering, Model Development, and Da
 ---
 
 ## Important Notes
-**Phase 1** of AAIE focuses on enabling educators to submit student work for automated AI classification, rubric-based scoring, and formative feedback. The system allows educators to review results, add their own comments, and download a combined feedback report.
+**Phase 1** of AAIE focuses on enabling educators to submit student work for automated AI classification, rubric-based scoring, and formative feedback. The system allows educators to review results, add their own comments, and combined feedback reports.
 
 ### In Scope
 - Educator login/register  
@@ -42,6 +42,8 @@ It ensures all development teams (Product Engineering, Model Development, and Da
 - Prompt history viewing/audit logs  
 - Plagiarism detection and prompt similarity analysis  
 - Student-facing submission workflows  
+
+![AAIE Context Diagram](../product-diagram/Context_Diagram(v.1.2).png)
 
 ---
 
