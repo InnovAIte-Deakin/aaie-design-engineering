@@ -21,7 +21,7 @@
 ---
 
 ## Overview
-The context diagram for the **AAIE (Academic AI Evaluator)** system outlines the high-level structure of the application by defining the interactions between the system and its external actors. It serves as a top-level view of the system’s boundaries, inputs, and outputs, showing how various stakeholders interact with the platform.  
+The context diagram for the **AAIE (Artificial Assessment Intelligence for Educator)** system outlines the high-level structure of the application by defining the interactions between the system and its external actors. It serves as a top-level view of the system’s boundaries, inputs, and outputs, showing how various stakeholders interact with the platform.  
 It ensures all development teams (Product Engineering, Model Development, and Data Curation) have a shared understanding of the system’s role in the broader academic environment.
 
 ---
