@@ -262,6 +262,6 @@ These descriptions clarify user interactions, data movement, and system boundari
 
 ---
 
-**Please refer to ![System Design](../) for detailed information.**
+**Please refer to ![System Design](./AAIE_System Design .pdf) for detailed information.**
 
 ---
