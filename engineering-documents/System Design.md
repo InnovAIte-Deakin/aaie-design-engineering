@@ -150,10 +150,10 @@ Modules are tightly coupled to form the **feedback and detection workflow**.
 
 ### 1. Prompt Submission & Feedback Interface
 - **Purpose:** Allows educators to submit student work (prompts + responses).
-- **Functionality:** Supports file/text input, metadata tagging (e.g., subject, rubric ID), and triggers the evaluation process.
+- **Functionality:** Supports file/text input, metadata tagging (e.g., subject), and triggers the evaluation process.
 - **Links with:** User authentication in Phase 1; role-based access control in Phase 2.
 
-### 2. Enforce Role-Based Access Control (RBAC) *(Transferred to Phase 2)*
+### 2. Enforce Role-Based Access Control (RBAC) *( (Deferred to Phase 2)*
 - **Purpose:** Ensures actions within the system are authorized based on user roles (educator, system admin, student in future phases).
 - **Functionality:** Limits access to specific functionalities such as viewing analytics or uploading assessments based on assigned privileges.
 - **Important For:** Academic integrity, data privacy, and traceability.
@@ -162,7 +162,7 @@ Modules are tightly coupled to form the **feedback and detection workflow**.
 - **Purpose:** Interacts with the LLM API to generate detailed feedback based on educator-submitted prompts.
 - **Functionality:** Converts structured input into evaluation requests and formats feedback into readable summaries.
 
-### 4. Rubric Alignment Engine
+### 4. Rubric Alignment Engine  (Deferred to Phase 2)
 - **Purpose:** Aligns LLM-generated feedback with rubric categories provided by educators.
 - **Functionality:** Compares AI feedback against expected learning outcomes and highlights alignment/misalignment.
 
@@ -171,7 +171,7 @@ Modules are tightly coupled to form the **feedback and detection workflow**.
 - **Functionality:** Uses linguistic features, AI usage scoring, and cross-checking with known patterns to determine authenticity.
 - **Flagging Options:** `AI`, `Hybrid`, `Human`.
 
-### 6. Feedback Report Generator
+### 6. Feedback Report Generator  (Deferred to Phase 2)
 - **Purpose:** Combines outputs from rubric alignment, feedback generation, and AI usage detection into a single downloadable document.
 - **Export Options:** PDF, structured JSON (for LMS integration), or internal dashboard display.
 
@@ -215,9 +215,9 @@ Modules are tightly coupled to form the **feedback and detection workflow**.
 - **Actions:**
   1. Educator logs in.
   2. Submits prompt and student response (real or synthetic).
-  3. Chooses or uploads rubric.
+  3. Chooses or uploads rubric.  (Deferred to Phase 2)
   4. Sets evaluation parameters.
-- **Data Created:** Prompt text, student response, rubric reference, evaluation metadata.
+- **Data Created:** Prompt text, student response, rubric reference (Deferred to Phase 2), evaluation metadata.
 - **Flow:** Input → Prompt Management Module → Prompt Database.
 
 ### 2. Preprocessing & Role Enforcement *(Phase 2)*
@@ -225,21 +225,21 @@ Modules are tightly coupled to form the **feedback and detection workflow**.
 - **Function:** Validates user permissions and routes requests.
 - **Flow:** Prompt Data → RBAC Filter → Feedback & Detection Engine.
 
-### 3. Feedback Generation + Rubric Alignment
-- **Components:** Feedback Engine, Rubric Alignment Engine.
-- **Function:** LLM generates feedback → Feedback matched against rubric → Misalignments highlighted.
-- **Flow:** Prompt + Response + Rubric → LLM API → Feedback → Alignment Module → Output.
+### 3. Feedback Generation + (Rubric Alignment Deferred to Phase 2)
+- **Components:** Feedback Engine (Phase 1), Rubric Alignment Engine (Phase 2).
+- **Function:** LLM generates feedback → Feedback matched against rubric (Deferred to Phase 2) → Misalignments highlighted (Deferred to Phase 2).
+- **Flow:** Prompt + Response + Rubric (Phase 2) → LLM API → Feedback → Alignment Module → Output.
 
 ### 4. AI Usage Detection
 - **Components:** AI Detector, History Cross-Check *(Phase 2)*.
 - **Function:** Analyzes text style/tokens, compares with AI patterns.
-- **Outcome:** Likelihood score + classification.
+- **Outcome:** Likelihood score (Deferred to Phase 2) + classification.
 - **Flow:** Response → AI Detection Engine → Label + Explanation.
 
-### 5. Report Generation & Download
-- **Component:** Report Formatter / Export Module.
-- **Function:** Aggregates results into PDF/JSON/dashboard.
-- **Flow:** Feedback + Rubric + Detection → Report Generator → Download/View.
+### 5. Report Generation & (Download Deferred to Phase 2)
+- **Component:** Report Formatter / (Export Module for Phase 2).
+- **Function:** Aggregates results into PDF/JSON/dashboard. (Deferred to Phase 2)
+- **Flow:** Feedback + Rubric (phase 2) + Detection → Report Generator (Phase 2) → Download/View.
 
 ### 6. Backend Monitoring & Logging
 - **Components:** API Tracker, Bias Monitor, System Logs.
@@ -262,6 +262,6 @@ These descriptions clarify user interactions, data movement, and system boundari
 
 ---
 
-**Please refer to `AAIE_System Design.pdf` for detailed information.**
+**Please refer to ![System Design](../) for detailed information.**
 
 ---
