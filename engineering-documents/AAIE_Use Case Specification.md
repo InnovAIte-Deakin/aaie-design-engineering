@@ -86,7 +86,7 @@
 
 ## Use Case Document – Educator Interaction (Phase 1)
 
-![Educator Use Case Diagram – Phase 1](./product_diagram/UseCaseDiagram_Educator(Phase1).png)
+![Educator Use Case Diagram – Phase 1](../product_diagram/UseCaseDiagram_Educator(Phase1).png)
 
 ### Purpose
 This document outlines the functional interactions between the **Educator** and the **LLM Engine (System Actor)** within the AAIE system for Phase 1.
@@ -177,7 +177,7 @@ In the current scope, AAIE enables educators to:
 
 ### Student Interaction with AAIE Platform
 
-![Student Use Case Diagram – Phase 2](../product_diagram/UseCaseDiagram_Student(phase2).png)
+![Student Use Case Diagram – Phase 2](../product_diagram/UseCaseDiagram_Studnet(Phase2).png)
 
 **Purpose**  
 This use case illustrates how students engage in academic work using GenAI tools and OnTrack, and how the backend AAIE system supports analysis, feedback, and evaluation. It emphasizes system automation, AI detection, and student transparency, without providing students direct access to the AAIE platform.
@@ -229,7 +229,7 @@ This use case illustrates how students engage in academic work using GenAI tools
 
 ### Educator Use Case Diagram
 
-![Educator Use Case Diagram – Phase 2](../product_diagram/UseCaseDiagram_Educator(phase2).png)
+![Educator Use Case Diagram – Phase 2](../product_diagram/UseCaseDiagram_Educator(Phase2).png)
 
 ---
 
