@@ -86,7 +86,7 @@
 
 ## Use Case Document – Educator Interaction (Phase 1)
 
-![Educator Use Case Diagram – Phase 1](../product_diagram/UseCaseDiagram_Educator(Phase1).png)
+![Educator Use Case Diagram – Phase 1](./product_diagram/UseCaseDiagram_Educator(Phase1).png)
 
 ### Purpose
 This document outlines the functional interactions between the **Educator** and the **LLM Engine (System Actor)** within the AAIE system for Phase 1.
