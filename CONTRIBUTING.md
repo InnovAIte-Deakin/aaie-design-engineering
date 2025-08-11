@@ -67,7 +67,7 @@
 
 6. **Push the feature branch to your fork** (and set upstream tracking):
     ```bash
-    git push -u origin feat/<short-description>
+    git push -u origin HEAD:feat/<short-description>
     ```
 
 7. **Open the PR** (UI path):
