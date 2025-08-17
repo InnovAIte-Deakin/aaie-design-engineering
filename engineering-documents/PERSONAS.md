@@ -1,6 +1,6 @@
 PERSONAS
 
-![AAIE PERSONA DIAGRAM](product-diagram/persona_diagram%201.png)
+![AAIE Context Diagram](../product-diagram/persona_diagramv.1.png)
 
 
 **1\. Veteran Veronica**
@@ -44,3 +44,4 @@ PERSONAS
   - Needs clear, downloadable reports for grading support
 - **Tech Comfort:** Moderate
 - **Quote:** _“I want some
+
