@@ -1,6 +1,12 @@
 
 
 **Diagram 1**
+
+
+
+
+
+
 ![AAIE Context Diagram](../product-diagram/activity_draftv_1.png)
 1. **Start → Login**
     - Authenticate and assign **role** (Student or Teacher).
@@ -36,6 +42,12 @@
 - You need a **strict pass-to-review** pipeline.
 
 **Diagram 2**
+
+
+
+
+
+
 ![AAIE Context Diagram](../product-diagram/activity_draft_2.png)
 1. **Start → Login**
     - Authenticate user (role is still known, but the visual flow focuses on the student lane).
@@ -57,3 +69,4 @@
     - **If YES:** loop back to **Submit Assignment** for another item in the same session.
 
     - **If NO:** **Log Out → End.**
+
